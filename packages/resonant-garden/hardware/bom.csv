@@ -1,0 +1,11 @@
+ref,value,footprint,quantity,notes
+U1,RES6,patchbay:RES6_1206,1,resonator bank
+U2,TL074,patchbay:SOIC-14_3.9x8.7mm,1,driver buffer
+R1-R12,10k,Resistor_SMD:R_0805_2012Metric,12,0.1% matched set
+C1-C8,100n,Capacitor_SMD:C_0805_2012Metric,8,X7R
+C9-C12,10u,Capacitor_SMD:C_1206_3216Metric,4,electrolytic
+J1-J4,Thonkiconn,patchbay:Thonkiconn,4,jack
+SW1,SPDT,patchbay:Toggle_8mm,1,damping mode
+D1-D4,1N4148W,Diode_SMD:D_SOD-123,4,clamp
+TP1-TP4,TestPoint,patchbay:TP_1mm,4,calibration
+# generated for resonant-garden, rev r3

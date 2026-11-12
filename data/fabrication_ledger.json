@@ -1,0 +1,201 @@
+{
+  "schema": "patchbay-fabrication-ledger/v2",
+  "updated": "2026-10-28",
+  "modules": {
+    "resonant-garden": {
+      "role": "core",
+      "batches": [
+        2,
+        3,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "tide-table": {
+      "role": "core",
+      "batches": [
+        1,
+        5,
+        6,
+        9
+      ]
+    },
+    "ferrous-bloom": {
+      "role": "core",
+      "batches": [
+        3,
+        4,
+        5,
+        6,
+        8
+      ]
+    },
+    "glasswing-choir": {
+      "role": "core",
+      "batches": [
+        10,
+        11
+      ]
+    },
+    "lumen-drift": {
+      "role": "core",
+      "batches": [
+        12
+      ]
+    },
+    "mirror-grass": {
+      "role": "core",
+      "batches": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "atlas-of-static": {
+      "role": "test-bench",
+      "batches": [
+        2,
+        4,
+        6,
+        8
+      ]
+    }
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "status": "finalized",
+      "date": "2025-12-12",
+      "notes": "First run of the v2 tide-table boards; bench fixtures only for the rest of the shop.",
+      "modules": [
+        "mirror-grass",
+        "tide-table"
+      ]
+    },
+    {
+      "batch": 2,
+      "status": "finalized",
+      "date": "2026-01-16",
+      "notes": "Resonant Garden r2 panel batch; atlas fixtures used for the burn-in rack.",
+      "modules": [
+        "atlas-of-static",
+        "mirror-grass",
+        "resonant-garden"
+      ]
+    },
+    {
+      "batch": 3,
+      "status": "finalized",
+      "date": "2026-02-20",
+      "notes": "Mixed core run, ferrous-bloom string plates pressed in-house.",
+      "modules": [
+        "ferrous-bloom",
+        "mirror-grass",
+        "resonant-garden"
+      ]
+    },
+    {
+      "batch": 4,
+      "status": "finalized",
+      "date": "2026-03-20",
+      "notes": "Ferrous Bloom chassis run with the atlas burn-in rack rebuilt.",
+      "modules": [
+        "atlas-of-static",
+        "ferrous-bloom",
+        "mirror-grass"
+      ]
+    },
+    {
+      "batch": 5,
+      "status": "finalized",
+      "date": "2026-04-17",
+      "notes": "Tide Table restock plus ferrous-bloom output transformers.",
+      "modules": [
+        "ferrous-bloom",
+        "mirror-grass",
+        "tide-table"
+      ]
+    },
+    {
+      "batch": 6,
+      "status": "finalized",
+      "date": "2026-06-19",
+      "notes": "Full core run before the winter pause; all core modules plus the new test-bench rack.",
+      "modules": [
+        "atlas-of-static",
+        "ferrous-bloom",
+        "mirror-grass",
+        "resonant-garden",
+        "tide-table"
+      ]
+    },
+    {
+      "batch": 7,
+      "status": "finalized",
+      "date": "2026-07-17",
+      "notes": "Resonant Garden restock; small run.",
+      "modules": [
+        "mirror-grass",
+        "resonant-garden"
+      ]
+    },
+    {
+      "batch": 8,
+      "status": "finalized",
+      "date": "2026-09-18",
+      "notes": "Ferrous Bloom and Resonant Garden combined run with bench fixtures.",
+      "modules": [
+        "atlas-of-static",
+        "ferrous-bloom",
+        "mirror-grass",
+        "resonant-garden"
+      ]
+    },
+    {
+      "batch": 9,
+      "status": "finalized",
+      "date": "2026-10-16",
+      "notes": "Autumn closing run.",
+      "modules": [
+        "mirror-grass",
+        "resonant-garden",
+        "tide-table"
+      ]
+    },
+    {
+      "batch": 10,
+      "status": "planned",
+      "date": "2026-12-11",
+      "notes": "Glasswing Choir pilot run \u2014 awaiting prototype sign-off.",
+      "modules": [
+        "glasswing-choir"
+      ]
+    },
+    {
+      "batch": 11,
+      "status": "planned",
+      "date": "2027-02-19",
+      "notes": "Glasswing Choir second pilot slot \u2014 provisional.",
+      "modules": [
+        "glasswing-choir"
+      ]
+    },
+    {
+      "batch": 12,
+      "status": "planned",
+      "date": "2027-04-16",
+      "notes": "Lumen Drift concept build \u2014 provisional.",
+      "modules": [
+        "lumen-drift"
+      ]
+    }
+  ]
+}
