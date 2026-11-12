@@ -6,7 +6,7 @@ format: Eurorack 10HP
 license: MIT
 summary: A slow quad LFO with tide-like phase drift, four linked outputs and a freeze input.
 tags: [modulation, lfo, slow]
-fabrication_package_url: https://github.com/frenchbyjen-cmd/tide-table
+fabrication_package_url: https://github.com/wholetherapi/pbc1548-e81312-catalog/tree/main/packages/tide-table
 ---
 
 # Tide Table
