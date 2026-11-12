@@ -6,7 +6,7 @@ format: Eurorack 12HP
 license: CERN-OHL-S-2.0
 summary: Six sympathetic resonators excited by a pair of piezo drivers, with CV-able damping and a dry/wet blend stage.
 tags: [resonator, piezo, analog]
-fabrication_package_url: https://github.com/wholetherapi/pbc1548-e81312-catalog/tree/main/packages/resonant-garden
+fabrication_package_url: https://github.com/jinsa-dot/resonant-garden
 ---
 
 # Resonant Garden
